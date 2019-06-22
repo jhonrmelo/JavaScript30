@@ -1,0 +1,61 @@
+<html>
+<head>   
+    <title> JS Drum Kit</title>
+  <link href="css.css" rel="stylesheet"> 
+<script type="text/javascript" src="scripts.js"></script>
+ </head>
+ <body onload="onloadPage()">
+<div class="keys">
+    <div  data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound"> CLAP</span>
+    </div>
+    <div  data-key="83" class="key">
+        <kbd>S<kbd>
+        <span class="sound"> HIHAT</span>
+    </div>
+    <div class="key" data-key="68">
+        <kbd>D<kbd>
+        <span class="sound">KICK</span>
+    </div>
+    <div class="key" data-key="70">
+        <kbd>F</kbd>
+        <span class="sound"> OPENHAT </span>
+    </div>
+    <div class="key" data-key="71">
+        <kbd>G</kbd>
+        <span class="sound">BOOM</span>
+    </div>
+    <div class="key" data-key="72">
+        <kbd>H</kbd>
+        <span class="sound">RIDE</span>
+    </div>
+    <div class="key" data-key="74">
+        <kbd> J</kbd>
+        <span class="sound">SNARE</span>
+    </div>
+    <div class="key" data-key="75">
+        <kbd>K</kbd>
+        <span class="sound">TOM</span>
+    </div>
+    <div class="key" data-key="76">
+        <kbd>L</kbd>
+        <span class="sound">TINK</span>
+    </div>
+</div>
+
+
+<audio data-key="65" src="sons/clap.wav"> </audio>
+<audio data-key="83" src="sons/hihat.wav"> </audio>
+<audio data-key="68" src="sons/kick.wav"> </audio>
+<audio data-key="70" src="sons/openhat.wav"> </audio>
+<audio data-key="71" src="sons/boom.wav"> </audio>
+<audio data-key="72" src="sons/ride.wav"> </audio>
+<audio data-key="74" src="sons/snare.wav"> </audio>
+<audio data-key="75" src="sons/tom.wav"> </audio>
+<audio data-key="76" src="sons/tink.wav"> </audio>
+
+
+ </body>
+</html>
+
