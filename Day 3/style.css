@@ -1,0 +1,35 @@
+/* Variaveis do css que são mudadas dinamicamente pelo javascript  */
+:root{
+    --base: #ffc650;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+
+}
+body{
+    text-align: center;
+    background: #195349;
+    color: white;
+    font-family: 'helvetica nue', sans-serif;
+    font-weight:  100;
+    font-size:  50px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+
+input{
+    width: 100px;
+}
+
