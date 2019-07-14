@@ -1,1 +1,1 @@
-# JavaScript30
+# 30 Projects with Vanilla Javascript, css and html in 30 days, project made using as base Wesbos course
