@@ -60,5 +60,5 @@ function setDrawing(e) {
 }
 
 function removeDrawing() {
-    isDrawing = false;
+    isDrawing = false;  
 }
