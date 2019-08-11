@@ -32,7 +32,6 @@ function populateList(plates = [], plateslist) {
     }).join('');
 }
 itemsList.addEventListener('click', toggleDone);
-itemsList.addEventListener('onchange', console.log('pinto'));
 
 function toggleDone(e) {
     if (!e.target.matches('input')) return;
@@ -56,7 +55,7 @@ function checkall() {
 }
 
 function UncheckAll(){
-    console.log('got here');
+
     var checkeboxes = document.querySelectorAll('input[type="checkbox"]');
     for (var i = 0, n = checkeboxes.length; i < n; i++) {
         checkeboxes[i].checked = false;
